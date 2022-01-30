@@ -7,6 +7,9 @@ import matplotlib.colors as mcolors
 
 color_pal = list(mcolors.TABLEAU_COLORS)
 
+st.markdown('# 簡易DNAプロットアプリ')
+st.markdown('by dakesan')
+
 st.sidebar.title("Control Panel")
 left_col, middle_col, right_col = st.columns(3)
 
