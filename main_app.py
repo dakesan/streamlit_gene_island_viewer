@@ -54,6 +54,10 @@ if st.sidebar.button('Generate plot!'):
     for index, start_end in enumerate(start_end_info):
         n_start, n_end = start_end
         strand=+1 if n_end - n_start > 0 else -1
+        if n_end - n_start > 0:
+            pass
+        else:
+            n_end, n_start = (n_start, n_end)
         features.append(
             GraphicFeature(start=n_start,
                             end=n_end,
