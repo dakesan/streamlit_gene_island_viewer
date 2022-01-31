@@ -5,7 +5,7 @@ import streamlit as st
 
 import matplotlib.colors as mcolors
 
-color_pal = list(mcolors.TABLEAU_COLORS)
+color_pal = list(mcolors.TABLEAU_COLORS)*3
 
 st.markdown('# 簡易DNAプロットアプリ')
 st.markdown('by dakesan')
